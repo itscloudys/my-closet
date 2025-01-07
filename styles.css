@@ -1,0 +1,210 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    background-color: #faf9f7;
+    color: #333;
+}
+
+/* Navigation */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+
+.top-nav a {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.top-nav a:hover {
+    color: red;
+}
+
+/* Header */
+.main-header {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.main-header h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.main-header h1 span {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/* Photo Gallery */
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.gallery-image {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Currently Loving Section */
+.currently-loving {
+    padding: 4rem 2rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+
+.section-title span {
+    font-style: italic;
+}
+
+.shop-more {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-title {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.product-title:hover {
+color: black;
+font-weight: bold;
+}
+
+#heels {
+    margin-top: 3rem;
+}
+
+#sunglasses {
+    margin-bottom: 2rem;
+}
+
+/* Shop The Look */
+.shop-look {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+.look-items {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.look-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.look-item h4 {
+    font-size: 30px;
+}
+
+.look-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.look-item a:hover {
+    text-decoration: underline red;
+}
+
+.look-item img {
+    width: 250px;
+}
+
+#section2 {
+    width: 800px;
+}
+
+/* Subscribe Section */
+.subscribe {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.subscribe img {
+    width: 50px;
+}
+
+.subscribe input {
+    padding: 0.5rem;
+    width: 300px;
+}
+
+.subscribe button {
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+}
